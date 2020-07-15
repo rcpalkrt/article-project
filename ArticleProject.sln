@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Cross Cutting Concerns L
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-UI Layer", "06-UI Layer", "{A70DA849-9C72-420F-ABF8-E82513AD91EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArticleProject.DataAccess", "ArticleProject.DataAccess\ArticleProject.DataAccess.csproj", "{6AB98980-34CA-405A-93C5-8D807D3842ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +31,17 @@ Global
 		{B55E8657-A78F-486E-A2C0-20F3FD1C3CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B55E8657-A78F-486E-A2C0-20F3FD1C3CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B55E8657-A78F-486E-A2C0-20F3FD1C3CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB98980-34CA-405A-93C5-8D807D3842ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB98980-34CA-405A-93C5-8D807D3842ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB98980-34CA-405A-93C5-8D807D3842ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB98980-34CA-405A-93C5-8D807D3842ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B55E8657-A78F-486E-A2C0-20F3FD1C3CBC} = {7DA0E193-92A5-41DE-B154-F11ED684E0C6}
+		{6AB98980-34CA-405A-93C5-8D807D3842ED} = {AAB634E4-DFF0-45BE-B14A-9DD550DA0E02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C572344-A58D-4FEF-94C3-FE1B2F925828}
