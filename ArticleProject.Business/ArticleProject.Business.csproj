@@ -9,4 +9,9 @@
     <Folder Include="Concrete\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ArticleProject.DataAccess\ArticleProject.DataAccess.csproj" />
+    <ProjectReference Include="..\ArticleProject.Entities\ArticleProject.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
