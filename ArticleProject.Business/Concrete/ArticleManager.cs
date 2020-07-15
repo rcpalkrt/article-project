@@ -15,7 +15,7 @@ namespace ArticleProject.Business.Concrete
     {
         private IUnitOfWorkRepository _uofw;
         private IArticleRepository _articleRepository;
-        private IMapper _mapper; 
+        private readonly IMapper _mapper; 
 
         public ArticleManager(IUnitOfWorkRepository uofw, IArticleRepository articleRepository, IMapper mapper)
         {
