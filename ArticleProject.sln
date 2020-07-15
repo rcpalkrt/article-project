@@ -17,8 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-WebAPI Layer", "04-WebAP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Cross Cutting Concerns Layer", "05-Cross Cutting Concerns Layer", "{0333016A-3D20-4160-9A2B-ADB74421BE0F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-UI Layer", "06-UI Layer", "{A70DA849-9C72-420F-ABF8-E82513AD91EC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArticleProject.DataAccess", "ArticleProject.DataAccess\ArticleProject.DataAccess.csproj", "{6AB98980-34CA-405A-93C5-8D807D3842ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArticleProject.Entities", "ArticleProject.Entities\ArticleProject.Entities.csproj", "{BB868038-355D-4AF5-BF70-6E56A98401EE}"
