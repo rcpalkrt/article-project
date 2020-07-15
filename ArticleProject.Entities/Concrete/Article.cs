@@ -12,5 +12,6 @@ namespace ArticleProject.Entities.Concrete
         public string Abstract { get; set; }
         public string Content { get; set; }
         public string Author { get; set; }
+        public DateTime ReleaseDate { get; set; }
     }
 }
