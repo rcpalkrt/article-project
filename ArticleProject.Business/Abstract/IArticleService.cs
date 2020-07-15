@@ -8,13 +8,13 @@ namespace ArticleProject.Business.Abstract
 {
     public interface IArticleService
     {
-        Task<bool> SaveAsync(ArticleForSaveDto model);
+        Task<bool> SaveAsync(ArticleDto model);
 
-        Task<ArticleForSaveDto> GetArticle(int id);
+        Task<ArticleDto> GetArticle(int id);
 
-        Task<List<ArticleForListDto>> GetList();
+        Task<IEnumerable<ArticleForListDto>> GetList();
 
-        Task<List<ArticleForListDto>> FindList(string searchText);
+        Task<IEnumerable<ArticleForListDto>> FindList(string searchText);
 
         Task<bool> Delete(int id);
     }

@@ -11,10 +11,10 @@ namespace ArticleProject.CrossCuttingConcerns.AutoMapper
     {
         public MappingProfile()
         {
-            CreateMap<Article, ArticleForSaveDto>()
+            CreateMap<Article, ArticleDto>()
                 .ForMember(a => a.ReleaseDate, dest => dest.MapFrom(src => src.ReleaseDate.ToString("dd MMMM yyyy")));
 
-            CreateMap<ArticleForSaveDto, Article>()
+            CreateMap<ArticleDto, Article>()
                 .ForMember(a => a.ReleaseDate, dest => dest.MapFrom(src => DateTime.Parse(src.ReleaseDate)));
 
             CreateMap<Article, ArticleForListDto>()

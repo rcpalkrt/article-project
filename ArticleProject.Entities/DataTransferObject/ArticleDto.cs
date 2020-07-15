@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ArticleProject.Entities.DataTransferObject
 {
-    public class ArticleForSaveDto
+    public class ArticleDto
     {
         public int ID { get; set; }
         public string Title { get; set; }

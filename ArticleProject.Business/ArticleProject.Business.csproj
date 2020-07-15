@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ArticleProject.CrossCuttingConcerns\ArticleProject.CrossCuttingConcerns.csproj" />
     <ProjectReference Include="..\ArticleProject.DataAccess\ArticleProject.DataAccess.csproj" />
     <ProjectReference Include="..\ArticleProject.Entities\ArticleProject.Entities.csproj" />
   </ItemGroup>
