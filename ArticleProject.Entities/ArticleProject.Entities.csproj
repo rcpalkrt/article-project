@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
     <Folder Include="DataTransferObject\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArticleProject.Core\ArticleProject.Core.csproj" />
   </ItemGroup>
 
 </Project>
