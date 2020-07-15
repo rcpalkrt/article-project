@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-UI Layer", "06-UI Layer"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArticleProject.DataAccess", "ArticleProject.DataAccess\ArticleProject.DataAccess.csproj", "{6AB98980-34CA-405A-93C5-8D807D3842ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArticleProject.Entities", "ArticleProject.Entities\ArticleProject.Entities.csproj", "{BB868038-355D-4AF5-BF70-6E56A98401EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{6AB98980-34CA-405A-93C5-8D807D3842ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AB98980-34CA-405A-93C5-8D807D3842ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AB98980-34CA-405A-93C5-8D807D3842ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB868038-355D-4AF5-BF70-6E56A98401EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB868038-355D-4AF5-BF70-6E56A98401EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB868038-355D-4AF5-BF70-6E56A98401EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB868038-355D-4AF5-BF70-6E56A98401EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B55E8657-A78F-486E-A2C0-20F3FD1C3CBC} = {7DA0E193-92A5-41DE-B154-F11ED684E0C6}
 		{6AB98980-34CA-405A-93C5-8D807D3842ED} = {AAB634E4-DFF0-45BE-B14A-9DD550DA0E02}
+		{BB868038-355D-4AF5-BF70-6E56A98401EE} = {AF06DAE2-CDF2-493C-8E5E-BEA599098740}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C572344-A58D-4FEF-94C3-FE1B2F925828}
